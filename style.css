@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.video-img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+}
+.video-img:hover{
+    border-radius: 0;
+}
+.profile-img{
+    width: 45px;
+    height: 45px;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.video-info-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.video-info-container p:nth-child(1){
+    font-family: "Nerko One", cursive;
+}
+
+.video-info-container p:nth-child(2){
+    font-family: "Sevillana", cursive;
+    color: gray;
+}
+.video-info-container p:nth-child(3){
+    font-family: "Baskervville SC", serif;
+    color: gray;
+}
+
+.video-info-container p:nth-child(2):hover,
+.video-info-container p:nth-child(3):hover{
+    color: black;
+}
+
+
+.all-video-info-container{
+    width: 100%;
+    display: grid;  
+    grid-template-columns: 45px 1fr;
+    gap: 20px;
+}
+.container{
+    width: 100%;
+}
+.all-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 85px;
+    margin-left: 110px;
+}
